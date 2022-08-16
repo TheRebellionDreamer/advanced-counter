@@ -1,6 +1,8 @@
 :root {
   --primary: #6DE1FF;
   --secondary: #2B2F38;
+  --error: #DF1751;
+  --error-light: #F1A5B5;
   --spacing: 0.5rem;
   --small: 14px;
   --medium: 16px;
