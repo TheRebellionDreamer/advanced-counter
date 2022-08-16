@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  gap: calc(var(--spacing) * 3);
+
+  align-items: center;
+}
+
+.label {
+  color: var(--primary);
+
+  font-size: var(--extra-large);
+  font-weight: 700;
+}
+
+.input {
+  padding: var(--spacing);
+
+  text-align: center;
+
+  border: 3px solid var(--primary);
+  border-radius: var(--radius);
+  outline: none;
+
+  font-size: var(--medium);
+}
+
+.error {
+  border-color: var(--error);
+  background-color: var(--error-light);
+}
