@@ -6,6 +6,7 @@
   --medium: 16px;
   --large: 18px;
   --extra-large: 24px;
+  --radius: 10px;
 }
 
 * {
