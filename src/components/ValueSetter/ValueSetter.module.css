@@ -1,0 +1,16 @@
+.root {
+  max-width: 450px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--spacing) * 3);
+
+  margin-bottom: calc(var(--spacing) * 3);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
