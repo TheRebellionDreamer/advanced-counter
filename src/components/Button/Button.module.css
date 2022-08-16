@@ -1,0 +1,33 @@
+.root {
+  padding: var(--spacing) calc(var(--spacing) * 2);
+
+  transition: 0.1s;
+
+  color: var(--secondary);
+  border: none;
+  border-radius: 10px;
+  background-color: var(--primary);
+
+  font-size: var(--large);
+  font-weight: 700;
+}
+
+.root:active {
+  transform: scale(0.8);
+
+  color: var(--primary);
+  background-color: transparent;
+}
+
+.root:hover {
+  opacity: 0.8;
+}
+
+.root:disabled {
+  opacity: 0.4;
+}
+
+.root:disabled:active {
+  color: var(--secondary);
+  background-color: var(--primary);
+}
