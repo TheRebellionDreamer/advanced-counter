@@ -28,6 +28,8 @@
 }
 
 .root:disabled:active {
+  transform: scale(1);
+
   color: var(--secondary);
   background-color: var(--primary);
 }
