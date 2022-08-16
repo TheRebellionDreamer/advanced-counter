@@ -2,6 +2,10 @@
   --primary: #6DE1FF;
   --secondary: #2B2F38;
   --spacing: 0.5rem;
+  --small: 14px;
+  --medium: 16px;
+  --large: 18px;
+  --extra-large: 24px;
 }
 
 * {
