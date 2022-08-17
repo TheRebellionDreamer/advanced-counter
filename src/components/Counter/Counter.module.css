@@ -1,0 +1,36 @@
+.root {
+  display: flex;
+  flex-direction: column;
+
+  width: 450px;
+  height: 328px;
+}
+
+.count-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+
+  margin-bottom: calc(var(--spacing) * 3);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text {
+  color: var(--primary);
+
+  font-size: var(--extra-large);
+  font-weight: 700;
+}
+
+.error {
+  color: var(--error);
+}
+
+.very-large {
+  font-size: 38px;
+}

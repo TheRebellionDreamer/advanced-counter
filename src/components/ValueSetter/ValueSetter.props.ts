@@ -1,13 +1,12 @@
 import { ChangeEvent } from 'react';
 
 interface ValueSetterProps {
-  initialMaxValue: string;
-  initialStartValue: string;
-  errorCondition: boolean;
+  maxValue: string;
+  startValue: string;
   setButtonIsDisabled: boolean;
   onChangeMaxValue: (e: ChangeEvent<HTMLInputElement>) => void;
   onChangeStartValue: (e: ChangeEvent<HTMLInputElement>) => void;
-  onSet: () => void;
+  onSaveChanges: () => void;
 }
 
 export default ValueSetterProps;

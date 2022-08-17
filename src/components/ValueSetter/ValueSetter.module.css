@@ -1,16 +1,17 @@
 .root {
-  max-width: 450px;
+  width: 450px;
+  height: 328px;
 }
 
 .input-container {
   display: flex;
   flex-direction: column;
-  gap: calc(var(--spacing) * 3);
 
   margin-bottom: calc(var(--spacing) * 3);
+  gap: calc(var(--spacing) * 3);
 }
 
-.button-container {
+.button-containter {
   display: flex;
   justify-content: center;
 }
